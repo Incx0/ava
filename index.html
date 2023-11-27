@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Buscar CEP</title>
+</head>
+<body>
+	<div class="container">
+		<div id="loginBox" class="conteudo">
+			<h1>Buscar CEP</h1>
+			<div class="dados">
+				<label>CEP:</label>
+				<input type="text" id="inCep" maxlength="8" onblur="buscarCep()">
+			</div>
+			<div class="dados">
+				<label>Rua:</label>
+				<input type="text" id="outRua" disabled>
+			</div>
+			<div class="dados">
+				<label>Bairro:</label>
+				<input type="text" id="outBairro" disabled>
+			</div>
+			<div class="dados">
+				<label>Cidade:</label>
+				<input type="text" id="outCid" disabled>
+			</div>
+			<div class="dados">
+				<label>Estado:</label>
+				<input type="text" id="outEst" disabled>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
